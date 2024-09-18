@@ -9,7 +9,7 @@
 <dependency>
     <groupId>site.hanbin</groupId>
     <artifactId>response-common</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.3</version>
 </dependency>
 ~~~
 
