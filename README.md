@@ -20,3 +20,18 @@
 
 ## 其他
 1. 目前使用springboot 3.3.3 版本
+
+
+~~~
+return ResultUtils.success(1, "返回信息", Object 返回数据);
+
+return ResultUtils.success();
+
+return ResultUtils.successOnlyMsg("返回信息");
+
+return ResultUtils.success(Object 返回数据);
+
+return ResultUtils.error(1, "错误信息");
+
+return ResultUtils.error("错误信息");
+~~~
