@@ -12,7 +12,7 @@
     <artifactId>response-common</artifactId>
     <version>0.0.3</version>
     <name>response-common</name>
-    <description>response-common</description>
+    <description>公共返回</description>
     <url>https://hanbin.site</url>
     <licenses>
         <license>
