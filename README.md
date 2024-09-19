@@ -12,6 +12,15 @@
     <version>0.0.3</version>
 </dependency>
 ~~~
+~~~
+version 
+2.6.n  为springboot  2.6.x 版本，使用 jdk1.8
+2.7.n  为springboot  2.7.x 版本，使用 jdk1.8
+3.0.n  为springboot  3.0.x 版本，使用 jdk17
+3.3.n  为springboot  3.3.x 版本，使用 jdk17
+
+x 与 n 非对应关系
+~~~
 
 ## 计划
 1. 适配不同版本的springboot(2.6以及以下, 2.7， 3.0 以上)
@@ -22,7 +31,7 @@
 1. 目前使用springboot 3.3.3 版本
 
 
-~~~
+~~~ java
 return ResultUtils.success(1, "返回信息", Object 返回数据);
 
 return ResultUtils.success();
@@ -34,4 +43,12 @@ return ResultUtils.success(Object 返回数据);
 return ResultUtils.error(1, "错误信息");
 
 return ResultUtils.error("错误信息");
+~~~
+
+~~~ java
+throw new ApiException();
+
+throw new ApiException("异常信息");
+
+throw new ApiException(500, "异常信息");
 ~~~
