@@ -10,7 +10,7 @@
     </parent>
     <groupId>site.hanbin</groupId>
     <artifactId>response-common</artifactId>
-    <version>page-3.0.1</version>
+    <version>page-3.0.2</version>
     <name>response-common</name>
     <description>公共返回</description>
     <url>https://hanbin.site</url>
@@ -55,6 +55,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>2.1.0</version>
         </dependency>
     </dependencies>
 
