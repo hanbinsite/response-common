@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: response-common
+response:
+  success: 1 # 请求成功返回状态码
+  error: 0 # 请求失败返回状态码
+  notLogin: 401 # 用户未登录返回状态码
+  unknownCode: -1 # 未知异常返回状态码
+
+
