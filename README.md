@@ -52,3 +52,16 @@ throw new ApiException("异常信息");
 
 throw new ApiException(500, "异常信息");
 ~~~
+
+## 自定义编码
+~~~ java
+
+response:
+  success: 1 # 请求成功返回状态码
+  error: 0 # 请求失败返回状态码
+  notLogin: 400 # 用户未登录返回状态码
+  unknown: -1 # 未知异常返回状态码
+  tokenExpire: 401 # 用户登录token过期
+  noAccess: 402 # 无访问权限返回状态码
+
+~~~
