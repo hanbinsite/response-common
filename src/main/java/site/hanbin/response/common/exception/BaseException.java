@@ -1,9 +1,14 @@
 package site.hanbin.response.common.exception;
 
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * @author hanbin
  */
+@Setter
+@Getter
 public class BaseException extends RuntimeException {
 
     /**
@@ -27,19 +32,4 @@ public class BaseException extends RuntimeException {
         this.msg = msg;
     }
 
-    public int getCode() {
-        return code;
-    }
-
-    public void setCode(int code) {
-        this.code = code;
-    }
-
-    public String getMsg() {
-        return msg;
-    }
-
-    public void setMsg(String msg) {
-        this.msg = msg;
-    }
 }

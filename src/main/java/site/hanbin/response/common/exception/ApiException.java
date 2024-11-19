@@ -18,5 +18,7 @@ public class ApiException extends BaseException {
     }
 
     public ApiException() {
+        this.code = ResultEnum.FAIL.getCode();
+        this.msg = ResultEnum.FAIL.getMsg();
     }
 }
