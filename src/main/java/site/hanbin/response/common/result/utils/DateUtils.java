@@ -23,10 +23,7 @@ public class DateUtils {
      * @return string
      */
     public String getNowDateTime() {
-        Date nowDate = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        sdf.setTimeZone(TimeZone.getTimeZone("Asia/Shanghai"));
-        return sdf.format(nowDate);
+        return getNowTime();
     }
 
     /**
