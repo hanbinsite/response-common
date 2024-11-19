@@ -26,6 +26,9 @@ public class Result<T> implements Serializable {
      */
     private T data;
 
+    /**
+     * 返回时间
+     */
     private String time;
 
 }
