@@ -1,10 +1,6 @@
 spring:
   application:
     name: response-common
-  datasource:
-    url: jdbc:mysql://127.0.0.1:3306/test
-    password: 123456
-    username: root
 response:
   success: 1 # 请求成功返回状态码
   error: 0 # 请求失败返回状态码
